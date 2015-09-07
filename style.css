@@ -1,0 +1,179 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* Write your CSS styles here */
+
+body {
+	background: #DCDCDC;
+	display: block;
+    margin: 8px;
+}
+
+body:focus { 
+    outline: none;
+}
+
+#site-container {
+    width: 30em;
+    margin: auto;
+    padding: 1em;
+	background: #FFFFFF;
+	border: 1px solid black;
+    font-family: 'Ubuntu', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	border-radius: 25px 0px 0px 25px;
+    overflow: auto;
+}
+
+#topdecor {
+	background: #8B4513;
+    height: 1.5em;
+	width: 30em;
+	border-radius: 25px 0px 0px 0px;
+}
+
+header {
+	display: table-cell;
+    background: #F5F5F5;
+    vertical-align: middle;
+    height: 3em;
+    width: 30em;
+    text-align: center;
+    color:#E24B3A;
+	border: 3px #DEB887;
+	border-style: none groove groove;
+	border-radius: 0px 0px 0px 25px;
+}
+
+h2 {
+	display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+header img {
+	height: 18px;
+	width: 100px;
+}
+
+p {
+	display: block;
+	color: #717171;
+	margin: 1em 0em;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+    font-weight: bold;
+    color: #4FA9ED;
+}
+
+a:visited {
+	font-weight: normal;
+    color: #4f82ed;	
+}
+
+.h-link {
+	color:#E24B3A;
+}
+
+.h-link:visited {
+	font-weight: normal;
+    color: #b52a1b;
+}
+
+h4 {
+	display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+ol {
+	display: block;
+	margin: 1em 0em 1em 0em;
+	padding: 0em 0em 0em 2em;
+	list-style-type: upper-roman;
+}
+
+ul {
+	display: block;
+	margin: 1em 0em 1em 0em;
+	padding: 0em 0em 0em 2em;
+	list-style-type: none;
+}
+
+footer {
+	text-align: center;
+}
+
+.social-media {
+    margin: 2em 0em 0em 0em;
+}
+
+.social-media img {
+	height: 3em;
+    width: 3em;
+    vertical-align: middle;
+}
+
+#selfphoto {
+    height: 5em;
+    width: 5em;
+	border-radius: 100%;
+	border: 2px dotted #443A2F;
+}
